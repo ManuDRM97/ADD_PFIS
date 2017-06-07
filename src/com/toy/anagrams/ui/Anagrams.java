@@ -173,7 +173,7 @@ public class Anagrams extends JFrame {
         buttonsPanel.setLayout(new java.awt.GridBagLayout());
 
         guessButton.setMnemonic('G');
-        guessButton.setText("Guess");
+        guessButton.setText("Resolver");
         guessButton.setToolTipText("Guess the scrambled word.");
         guessButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,7 +189,7 @@ public class Anagrams extends JFrame {
         buttonsPanel.add(guessButton, gridBagConstraints);
 
         nextTrial.setMnemonic('N');
-        nextTrial.setText("New Word");
+        nextTrial.setText("Nueva Palabra");
         nextTrial.setToolTipText("Fetch a new word.");
         nextTrial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
