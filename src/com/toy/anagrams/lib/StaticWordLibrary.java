@@ -108,7 +108,6 @@ final class StaticWordLibrary extends WordLibrary {
         "cirheena",
         "nietnret",
         "ajav",
-        
         "loizcaacioln",
         "mericrropsadooc",
         "nagacioven",
